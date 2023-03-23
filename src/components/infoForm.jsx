@@ -2,10 +2,10 @@ import React from "react";
 
 const infoForm = ({ data, updateForm }) => {
   return (
-    <div className="flex flex-col gap-10 text-left py-10 px-16">
+    <div className="flex flex-col gap-10 text-left py-10 px-7 md:px-16">
       <div>
         <h1 className="text-4xl font-bold text-Marineblue">Personal info</h1>
-        <p className="text-gray-500 mt-2">
+        <p className="text-gray-400 mt-2 font-medium">
           Please provide your name, email address, and phone number.
         </p>
       </div>

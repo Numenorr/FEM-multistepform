@@ -2,7 +2,7 @@ import React from "react";
 
 const planForm = ({ data, updateForm }) => {
   return (
-    <div className="flex flex-col gap-10 text-left py-10 px-16">
+    <div className="flex flex-col gap-10 text-left py-10 px-6 md:px-16">
       <div>
         <h1 className="text-4xl font-bold text-Marineblue">Select your plan</h1>
         <p className="text-gray-500 mt-2">
@@ -22,7 +22,7 @@ const planForm = ({ data, updateForm }) => {
           />
           <label
             for="radio1"
-            className="flex flex-col gap-12 justify-between w-full p-5  bg-white border border-gray-200 rounded-lg cursor-pointer peer-checked:border-Purplishblue peer-checked:bg-gray-100 hover:bg-gray-100"
+            className="flex items-center md:flex-col gap-4 md:gap-12 md:justify-between w-full p-5  bg-white border border-gray-200 rounded-lg cursor-pointer peer-checked:border-Purplishblue peer-checked:bg-gray-100 hover:bg-gray-100"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@ const planForm = ({ data, updateForm }) => {
           />
           <label
             for="radio2"
-            className="flex flex-col gap-12 justify-between w-full p-5  bg-white border border-gray-200 rounded-lg cursor-pointer peer-checked:border-Purplishblue peer-checked:bg-gray-100 hover:bg-gray-100"
+            className="flex items-center md:flex-col gap-4 md:gap-12 md:justify-between w-full p-5  bg-white border border-gray-200 rounded-lg cursor-pointer peer-checked:border-Purplishblue peer-checked:bg-gray-100 hover:bg-gray-100"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ const planForm = ({ data, updateForm }) => {
           />
           <label
             for="radio3"
-            className="flex flex-col gap-12 justify-between w-full p-5  bg-white border border-gray-200 rounded-lg cursor-pointer peer-checked:border-Purplishblue peer-checked:bg-gray-100 hover:bg-gray-100"
+            className="flex items-center md:flex-col gap-4 md:gap-12 md:justify-between w-full p-5  bg-white border border-gray-200 rounded-lg cursor-pointer peer-checked:border-Purplishblue peer-checked:bg-gray-100 hover:bg-gray-100"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

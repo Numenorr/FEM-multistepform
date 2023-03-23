@@ -2,7 +2,7 @@ import React from "react";
 
 const summaryForm = () => {
   return (
-    <div className="flex flex-col gap-10 text-left py-10 px-16">
+    <div className="flex flex-col gap-10 text-left py-10 px-6 md:px-16">
       <div>
         <h1 className="text-4xl font-bold text-Marineblue">Finishing up</h1>
         <p className="text-gray-500 mt-2">
